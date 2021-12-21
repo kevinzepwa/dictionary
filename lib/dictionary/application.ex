@@ -11,7 +11,7 @@ defmodule Dictionary.Application do
     ]
 
     options = [
-      name: Dictionary.Supervisor,
+      name: Dictionary.Supervisor, 
       strategy: :one_for_one,
     ]
 
